@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build:1": "docker compose up --scale api=1",
+    "build:2": "docker compose up --scale api=2",
+    "build:3": "docker compose up --scale api=3",
+    "build:4": "docker compose up --scale api=4",
+    "build:5": "docker compose up --scale api=5"
   },
   "author": "",
   "license": "ISC",

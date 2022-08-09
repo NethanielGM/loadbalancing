@@ -1,11 +1,7 @@
 version: '3.9'
-
 services:
   api:
-    # container_name: nodejs_api
     build: .
-    # ports: 
-    # - 3000:3000
   nginx:
     image: nginx:latest
     volumes:
@@ -13,4 +9,4 @@ services:
     depends_on:
       - api
     ports:
-      - 3000:3000
+      - 9090:9090
