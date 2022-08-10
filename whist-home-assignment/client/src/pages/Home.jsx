@@ -21,9 +21,9 @@ const Home = () => {
     } else {
         heroSliderData = [
             {
-                title_1: "Your IP is",
-                title_2: `${data.publicIp} ${data.url}`,
-                description: "< hire me ?>",
+                title_1: "Load balancing is fun!",
+                title_2: `IP ${data.publicIp}`,
+                description: "This app balances the load on a server and diplays the container IP. Using: docker, nginx, node, ec2, s2, cloudforn",
                 img: img1,
                 imgbg: imgbg1,
                 class: 'center'
@@ -32,9 +32,9 @@ const Home = () => {
     }
     const getPublicIP = async () => {
         try {
-            const res = await axios.get(`http://localhost:3000`)
+            const res = await axios.get(`http://18.204.201.32:9090`)
             console.log(res.data);
-            setData({ publicIp: res.data.publicIp, url: res.data.url })
+            setData({ publicIp: res.data.publicIp })
         } catch (err) {
             console.log(err);
             setError(`${err.message}`);

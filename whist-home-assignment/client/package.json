@@ -25,8 +25,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "CI='' && react-scripts build",
-    "deploy": "npm run build && npm run client-s3-deploy && rm -rf build/ && npm run client-cloudfront-Invalidation",
-    "client-s3-deploy": "aws s3 sync build/ s3:// --region us-east-1",
+    "deploy": "npm run build && npm run client-s3-deploy && rm -rf build/",
+    "client-s3-deploy": "aws s3 sync build/ s3://justloadbalancer --region us-east-1",
     "client-cloudfront-Invalidation": "aws cloudfront create-invalidation --distribution-id  --paths '/*'",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
