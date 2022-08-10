@@ -1,20 +1,8 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-
-  <h1 align="center">E-kart</h1>
-
-  <h3 align="center">
-   A Fullstack E-commerce website(mern stack)
-  </h3>
- <br />
- 
- ### Click here for live demo   <a href="https://e-kart.netlify.app/">E-Kart</a>
-
-</p>
-
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## About The Project:-
+
+![Home page](https://github.com/Sumukha210/E-kart-website/blob/main/public/img/homepage.png?raw=true "Ekart home page")
 
 This app balances the load on a server and displays the container IP. Using: ReactJS, NodeJS, Docker, Nginx. Deployed With S3 And EC2
 
