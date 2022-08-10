@@ -1,4 +1,4 @@
-### Click here for live demo   <a href="http://justloadbalancer.s3-website-us-east-1.amazonaws.com/">E-Kart</a>
+### Click here for live demo   <a href="http://justloadbalancer.s3-website-us-east-1.amazonaws.com/">Loadbalancer</a>
 
 ## About The Project
 
