@@ -156,7 +156,7 @@ html {
 }
 
 body {
-    background: var(--primary-color);
+    background: #1d1d22 !important;
     line-height: 1;
     padding-right: 0 !important;
     overflow: hidden;
@@ -2333,7 +2333,6 @@ header {
 /* Footer
 -------------------------------------------------------------- */
 #footer {
-    padding: 80px 0 80px;
     background: var(--bg-section);
 }
 
@@ -2343,7 +2342,7 @@ header {
 
 .home-5 #footer,
 .home-3 #footer {
-    background: #fff !important;
+    background: #1d1d22 !important;
 }
 
 .home-6 #footer {
@@ -2404,7 +2403,8 @@ header {
 -------------------------------------------------------------- */
 .widget p,
 .widget .title-widget {
-    color: var(--primary-color2);
+    color: #ffffff;
+    margin-top: 150px;
 }
 
 .fl-dark .widget p,

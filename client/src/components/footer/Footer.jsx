@@ -1,7 +1,7 @@
 import React from 'react';
 const Footer = () => {
     return (
-        <footer id="footer" className="footer-light-style clearfix bg-style">
+        <footer id="footer" className="footer-light-style clearfix bg-style" >
             <div className="themesflat-container">
                 <div className="row">
                     <div className="col-lg-3 col-md-6 col-sm-7 col-12">
@@ -11,7 +11,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer >
     );
 }
 
