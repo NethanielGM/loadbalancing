@@ -2,8 +2,6 @@
 
 ## About The Project:-
 
-![Home page](https://github.com/Sumukha210/E-kart-website/blob/main/public/img/homepage.png?raw=true "Ekart home page")
-
 This app balances the load on a server and displays the container IP. Using: ReactJS, NodeJS, Docker, Nginx. Deployed With S3 And EC2
 
 ### Built With
