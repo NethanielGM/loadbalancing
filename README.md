@@ -17,18 +17,12 @@ This app balances the load on a server and displays the container IP. Using: Rea
 - #### S3
 - #### EC2
 
-<!-- GETTING STARTED -->
-
-# Getting Started
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
-### To run project:-
+### To run client:-
 
 ### `npm start`
 
-### To build project:-
+### To run server:-
 
-### `npm run build`
+### `docker-compose up --scale api={$NUMBER OF APPS YOU WANT}`
