@@ -1,6 +1,6 @@
-<!-- ABOUT THE PROJECT -->
+### Click here for live demo   <a href="http://justloadbalancer.s3-website-us-east-1.amazonaws.com/">E-Kart</a>
 
-## About The Project:-
+## About The Project
 
 This app balances the load on a server and displays the container IP. Using: ReactJS, NodeJS, Docker, Nginx. Deployed With S3 And EC2
 
@@ -17,10 +17,10 @@ This app balances the load on a server and displays the container IP. Using: Rea
 
 ## Available Scripts
 
-### To run client:-
+### To run client
 
 ### `npm start`
 
-### To run server:-
+### To run server
 
 ### `docker-compose up --scale api={$NUMBER OF APPS YOU WANT}`
