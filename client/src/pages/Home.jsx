@@ -50,7 +50,7 @@ const Home = () => {
 
     return (
         <div className='home-3'>
-            <Slider data={heroSliderData} />
+            <Slider data={heroSliderData} getPublicIP={getPublicIP} />
             <Footer />
         </div>
     );

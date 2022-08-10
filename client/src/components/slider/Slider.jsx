@@ -14,6 +14,7 @@ import imgbg from '../../assets/images/backgroup-secsion/img_bg_page_title.jpg'
 
 const Slider = props => {
     const data = props.data
+    const getPublicIP = props.getPublicIP
     return (
         <div className="mainslider" >
             <Swiper
@@ -26,7 +27,7 @@ const Slider = props => {
                 {
                     data.map((item, index) => (
                         <SwiperSlide key={index} >
-                            <SliderItem key={index} item={item} />
+                            <SliderItem key={index} item={item} getPublicIP={getPublicIP} />
                         </SwiperSlide>
 
                     ))
@@ -68,6 +69,10 @@ const SliderItem = props => (
                                     <h1 className="heading">{props.item.title_3}</h1>
                                     <p className="sub-heading">{props.item.description}
                                     </p>
+                                    <div className="flat-bt-slider flex style2">
+                                        <button to="" onClick={() => props.getPublicIP()} className="sc-button header-slider style style-1 rocket fl-button pri-1"><span>Refresh
+                                        </span></button>
+                                    </div>
                                 </div>
                                 <div className="image">
                                     <img className="img-bg" src={props.item.imgbg} alt="" />
@@ -79,7 +84,9 @@ const SliderItem = props => (
                 </div>
             </div>
         </div>
-    </div>
+    </div >
+
+
 
 )
 export default Slider;
