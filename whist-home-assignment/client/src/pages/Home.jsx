@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Slider from '../components/slider/Slider';
+import Footer from '../components/footer/Footer';
 import axios from 'axios'
 import img1 from '../assets/images/slider/header-img.svg'
 import imgbg1 from '../assets/images/slider/bg_slide_1.png'
@@ -23,7 +24,7 @@ const Home = () => {
             {
                 title_1: "Load balancing is fun!",
                 title_2: `IP ${data.publicIp}`,
-                description: "This app balances the load on a server and diplays the container IP. Using: docker, nginx, node, ec2, s2, cloudforn",
+                description: "This app balances the load on a server and displays the container IP. Using: ReactJS, NodeJS, Docker, Nginx. Deployed with S3 And EC2",
                 img: img1,
                 imgbg: imgbg1,
                 class: 'center'
@@ -50,6 +51,7 @@ const Home = () => {
     return (
         <div className='home-3'>
             <Slider data={heroSliderData} />
+            <Footer />
         </div>
     );
 }

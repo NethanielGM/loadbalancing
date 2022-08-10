@@ -43,7 +43,7 @@ Slider.propTypes = {
     timeOut: PropTypes.number
 }
 const SliderItem = props => (
-    <div className="flat-title-page" style={{ backgroundImage: `url(${imgbg})`, height: "900px" }}>
+    <div className="flat-title-page" style={{ backgroundImage: `url(${imgbg})`, height: "auto" }}>
         <img className="bgr-gradient gradient1" src={shape1} alt="" />
         <img className="bgr-gradient gradient2" src={shape2} alt="" />
         <img className="bgr-gradient gradient3" src={shape3} alt="" />
