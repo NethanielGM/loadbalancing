@@ -9,4 +9,4 @@ app.get('/', async (req, res) => {
         publicIp: address.ip(),
     })
 })
-app.listen(9090, () => console.log(`${address.ip()}/9090`));
+app.listen(8080, () => console.log(`${address.ip()}/8080`));
